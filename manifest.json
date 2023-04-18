@@ -17,7 +17,8 @@
   },
   "content_scripts": [{
     "matches": ["*://*.aliexpress.com/item/*"],
-    "js": ["content.js"]
+    "js": ["content.js"],
+    "run_at": "document_idle"
   }],
   "icons": {
     "16": "/images/icon16.png",

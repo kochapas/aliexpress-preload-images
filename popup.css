@@ -6,3 +6,15 @@
   color: #333;
   margin: auto;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.me-1 {
+  margin-right: 0.5rem;
+}
